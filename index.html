@@ -8,19 +8,33 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <section class="keyboard">
-    <div data-key="#" id="key1" class="key"><kbd>a</kbd><span></span></div>
-    <div data-key="#" id="key2" class="key"><kbd>A</kbd><span></span></div>
-    <div data-key="#" id="key3" class="key"><kbd>b</kbd><span></span></div>
-    <div data-key="#" id="key4" class="key"><kbd>c</kbd><span></span></div>
-    <div data-key="#" id="key5" class="key"><kbd>C</kbd><span></span></div>
-    <div data-key="#" id="key6" class="key"><kbd>d</kbd><span></span></div>
-    <div data-key="#" id="key7" class="key"><kbd>D</kbd><span></span></div>
-    <div data-key="#" id="key8" class="key"><kbd>e</kbd><span></span></div>
-    <div data-key="#" id="key9" class="key"><kbd>f</kbd><span></span></div>
-    <div data-key="#" id="key10" class="key"><kbd>F</kbd><span></span></div>
-    <div data-key="#" id="key11" class="key"><kbd>g</kbd><span></span></div>
-    <div data-key="#" id="key12" class="key"><kbd>G</kbd><span></span></div>
+  <section class="keyboard" id="keyboard">
+    <div data-key="65" id="key1" class="key"><kbd>a</kbd><span></span></div>
+    <div data-key="97" id="key2" class="key"><kbd>A#</kbd><span></span></div>
+    <div data-key="66" id="key3" class="key"><kbd>b</kbd><span></span></div>
+    <div data-key="67" id="key4" class="key"><kbd>c</kbd><span></span></div>
+    <div data-key="99" id="key5" class="key"><kbd>C#</kbd><span></span></div>
+    <div data-key="68" id="key6" class="key"><kbd>d</kbd><span></span></div>
+    <div data-key="100" id="key7" class="key"><kbd>D#</kbd><span></span></div>
+    <div data-key="69" id="key8" class="key"><kbd>e</kbd><span></span></div>
+    <div data-key="70" id="key9" class="key"><kbd>f</kbd><span></span></div>
+    <div data-key="101" id="key10" class="key"><kbd>F#</kbd><span></span></div>
+    <div data-key="71" id="key11" class="key"><kbd>g</kbd><span></span></div>
+    <div data-key="102" id="key12" class="key"><kbd>G#</kbd><span></span></div>
+  </section>
+  <section class="sounds" id="sounds">
+    <audio data-key="65" src="sounds/a3.mp3"></audio>
+    <audio src="sounds/a-3.mp3" data-key="97"></audio>
+    <audio src="sounds/b3.mp3" data-key="66"></audio>
+    <audio src="sounds/c3.mp3" data-key="67"></audio>
+    <audio src="sounds/c-3.mp3" data-key="99"></audio>
+    <audio src="sounds/d3.mp3" data-key="68"></audio>
+    <audio src="sounds/d-3.mp3" data-key="100"></audio>
+    <audio src="sounds/e3.mp3" data-key="69"></audio>
+    <audio src="sounds/f3.mp3" data-key="70"></audio>
+    <audio src="sounds/f-3.mp3" data-key="101"></audio>
+    <audio src="sounds/g3.mp3" data-key="71"></audio>
+    <audio src="sounds/g-3.mp3" data-key="102"></audio>
   </section>
 
   <script src="app.js" charset="utf-8"></script>
