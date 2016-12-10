@@ -1,0 +1,25 @@
+{
+  "name": "sound-board",
+  "version": "1.0.0",
+  "description": "A piano soundboard",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+
+    "start": "open index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ehinson/soundboard.git"
+  },
+  "keywords": [
+    "piano",
+    "soundboard"
+  ],
+  "author": "Erin (Q.)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ehinson/soundboard/issues"
+  },
+  "homepage": "https://github.com/ehinson/soundboard#readme"
+}
