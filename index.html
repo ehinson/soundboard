@@ -8,38 +8,41 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <section class="keyboard" id="keyboard">
+  <div class="container">
+    <section class="keyboard" id="keyboard">
 
-    <div data-key="65" id="key4" class="key"><kbd>c</kbd><span></span></div>
-    <div data-key="87" id="key5" class="key"><kbd>C#</kbd><span></span></div>
-    <div data-key="83" id="key6" class="key"><kbd>d</kbd><span></span></div>
-    <div data-key="69" id="key7" class="key"><kbd>D#</kbd><span></span></div>
-    <div data-key="68" id="key8" class="key"><kbd>e</kbd><span></span></div>
-    <div data-key="70" id="key9" class="key"><kbd>f</kbd><span></span></div>
-    <div data-key="85" id="key10" class="key"><kbd>F#</kbd><span></span></div>
-    <div data-key="74" id="key11" class="key"><kbd>g</kbd><span></span></div>
-    <div data-key="73" id="key12" class="key"><kbd>G#</kbd><span></span></div>
-    <div data-key="75" id="key1" class="key"><kbd>a</kbd><span></span></div>
-    <div data-key="79" id="key2" class="key"><kbd>A#</kbd><span></span></div>
-    <div data-key="76" id="key3" class="key"><kbd>b</kbd><span></span></div>
-    <div data-key="186" id="key3" class="key"><kbd>C</kbd><span></span></div>
-  </section>
-  <section class="sounds" id="sounds">
+      <div data-key="65" id="key4" class="key"><kbd>A</kbd><br><span>C</span></div>
+      <div data-key="87" id="key5" class="key sharp"><kbd>W</kbd><br><span>C#</span></div>
+      <div data-key="83" id="key6" class="key"><kbd>S</kbd><br><span>D</span></div>
+      <div data-key="69" id="key7" class="key sharp"><kbd>E</kbd><br><span>D#</span></div>
+      <div data-key="68" id="key8" class="key"><kbd>D</kbd><br><span>E</span></div>
+      <div data-key="70" id="key9" class="key"><kbd>F</kbd><br><span>F</span></div>
+      <div data-key="85" id="key10" class="key sharp"><kbd>U</kbd><br><span>F#</span></div>
+      <div data-key="74" id="key11" class="key"><kbd>J</kbd><br><span>G</span></div>
+      <div data-key="73" id="key12" class="key sharp"><kbd>I</kbd><br><span>G#</span></div>
+      <div data-key="75" id="key1" class="key"><kbd>K</kbd><br><span>A</span></div>
+      <div data-key="79" id="key2" class="key sharp"><kbd>O</kbd><br><span>A#</span></div>
+      <div data-key="76" id="key3" class="key"><kbd>L</kbd><br><span>B</span></div>
+      <div data-key="186" id="key3" class="key"><kbd>;</kbd><br><span>C</span></div>
+    </section>
+    <section class="sounds" id="sounds">
 
-    <audio src="sounds/c3.mp3" data-key="65"></audio>
-    <audio src="sounds/c-3.mp3" data-key="87"></audio>
-    <audio src="sounds/d3.mp3" data-key="83"></audio>
-    <audio src="sounds/d-3.mp3" data-key="69"></audio>
-    <audio src="sounds/e3.mp3" data-key="68"></audio>
-    <audio src="sounds/f3.mp3" data-key="70"></audio>
-    <audio src="sounds/f-3.mp3" data-key="85"></audio>
-    <audio src="sounds/g3.mp3" data-key="74"></audio>
-    <audio src="sounds/g-3.mp3" data-key="73"></audio>
-    <audio  src="sounds/a3.mp3" data-key="75"></audio>
-    <audio src="sounds/a-3.mp3" data-key="79"></audio>
-    <audio src="sounds/b3.mp3" data-key="76"></audio>
-    <audio src="sounds/c4.mp3" data-key="186"></audio>
-  </section>
+      <audio src="sounds/c3.mp3" data-key="65"></audio>
+      <audio src="sounds/c-3.mp3" data-key="87"></audio>
+      <audio src="sounds/d3.mp3" data-key="83"></audio>
+      <audio src="sounds/d-3.mp3" data-key="69"></audio>
+      <audio src="sounds/e3.mp3" data-key="68"></audio>
+      <audio src="sounds/f3.mp3" data-key="70"></audio>
+      <audio src="sounds/f-3.mp3" data-key="85"></audio>
+      <audio src="sounds/g3.mp3" data-key="74"></audio>
+      <audio src="sounds/g-3.mp3" data-key="73"></audio>
+      <audio  src="sounds/a3.mp3" data-key="75"></audio>
+      <audio src="sounds/a-3.mp3" data-key="79"></audio>
+      <audio src="sounds/b3.mp3" data-key="76"></audio>
+      <audio src="sounds/c4.mp3" data-key="186"></audio>
+    </section>
+  </div>
+
 
   <script src="app.js" charset="utf-8"></script>
 </body>

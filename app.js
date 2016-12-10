@@ -1,7 +1,7 @@
 var keys = document.querySelectorAll('.key');
 var sounds = document.getElementById('sounds');
 
-window.addEventListener('keydown', function (e) {
+var playSound = function (e) {
   var attr = e.keyCode;
   var audio = document.querySelector(`audio[data-key="${attr}"]`);
   var key = document.querySelector(`div[data-key="${attr}"]`);
@@ -15,10 +15,12 @@ window.addEventListener('keydown', function (e) {
     audio.currentTime = 0;
 
     audio.play();
-    audio.loop = false;
 
   }
-});
+};
+
+window.addEventListener('keydown', playSound );
+window.addEventListener('click', playSound );
 
 window.addEventListener('keyup', function (e) {
   var attr = e.keyCode;
